@@ -4,22 +4,22 @@ cask "burn" do
 
   on_macos do
     on_intel do
-      sha256 "b74dda11b8c474fcaafbd02949a33e5aa6f3611a3d7553f17ada9f6e60294c4d"
+      sha256 "1a6eca6a6201c325dc394d4c4259c79c28f0d5005d0145b9ea2b678453471d87"
       url "https://github.com/tanrikuluozlem/burn/releases/download/v#{version}/burn_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "2ab76fabdd3fe32bf6b3d37d4e8a82c00bf821d3edd5c4983c0bd1843ca63c24"
+      sha256 "f5f499b3fb41c4024feb902be00a0cc778e9eb91c2304977b30eb597ff3bb9b2"
       url "https://github.com/tanrikuluozlem/burn/releases/download/v#{version}/burn_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "695386483192b776461ca7d883425492de3f88a6d0a5c8317759fb7ae8732037"
+      sha256 "1d5ae409e643fa44715fc32f6f7ea9bb475d94a0943c4f386f8ec913d59fb5d3"
       url "https://github.com/tanrikuluozlem/burn/releases/download/v#{version}/burn_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9801dd3385b30593c3d8836a70aff9793b04b8778b2cf76afdc278a2fa250e53"
+      sha256 "e5f8246435c46129a631a4f1fab3a2f9be5b3e09212ebeb7e7d57a31adee33ec"
       url "https://github.com/tanrikuluozlem/burn/releases/download/v#{version}/burn_#{version}_linux_arm64.tar.gz"
     end
   end
